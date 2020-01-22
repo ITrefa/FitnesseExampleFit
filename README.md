@@ -12,8 +12,9 @@ mvn -Pfitnesse test
 * [Fitnesse](http://fitnesse.org/FrontPage) - Acceptance tests
 
 ## Wiki
-
+```
 <test page>
+  
 !define TEST_SYSTEM {fit}
 
 !path /Users/elaletina/FitnesseExampleFit/target/classes
@@ -24,7 +25,7 @@ mvn -Pfitnesse test
 |2     |3     |5   |-1       |6        |0      |
 |6     |3     |9   |3        |18       |2      |
 |5     |2     |7   |3        |10       |2      |
-
+```
 
 
 
