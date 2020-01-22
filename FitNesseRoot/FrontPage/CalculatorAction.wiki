@@ -1,0 +1,54 @@
+---
+Test
+---
+<test page>
+
+!define TEST_SYSTEM {fit}
+!path /Users/elaletina/FitnesseExampleFit/target/classes
+
+!|exampleFixture.CalculatorActionFixture     |
+|start|exampleFixture.CalculatorActionFixture|
+|enter|setValue1             |8              |
+|enter|setValue2             |5              |
+|check|add                   |13             |
+|check|subtract              |3              |
+|check|multiply              |40             |
+|check|divide                |1              |
+
+!|exampleFixture.CalculatorActionFixture     |
+|start|exampleFixture.CalculatorActionFixture|
+|enter|setValue1             |2              |
+|enter|setValue2             |6              |
+|check|add                   |8              |
+|check|subtract              |-4             |
+|check|multiply              |12             |
+|check|divide                |0              |
+
+!|exampleFixture.CalculatorActionFixture     |
+|start|exampleFixture.CalculatorActionFixture|
+|enter|setValue1             |10             |
+|enter|setValue2             |7              |
+|check|add                   |17             |
+|check|subtract              |3              |
+|check|multiply              |70             |
+|check|divide                |1              |
+
+!|exampleFixture.CalculatorActionFixture     |
+|start|exampleFixture.CalculatorActionFixture|
+|enter|setValue1             |0              |
+|enter|setValue2             |3              |
+|check|add                   |3              |
+|check|subtract              |-3             |
+|check|multiply              |0              |
+|check|divide                |0              |
+
+
+!|exampleFixture.CalculatorActionFixture     |
+|start|exampleFixture.CalculatorActionFixture|
+|enter|setValue1             |4              |
+|enter|setValue2             |0             |
+|check|add                   |4             |
+|check|subtract              |4             |
+|check|multiply              |0              |
+|check|divide                |              |
+
