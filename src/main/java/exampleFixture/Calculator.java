@@ -17,7 +17,8 @@ public class Calculator {
 
     public int divide(int value1, int value2) {
         if (value2 == 0) {
-            throw new ArithmeticException("/ by zero");
+            throw new ArithmeticException("by zero");
+
         } else
             return value1 / value2;
     }
