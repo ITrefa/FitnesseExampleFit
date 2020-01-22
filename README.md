@@ -25,6 +25,8 @@ mvn -Pfitnesse test
 |2     |3     |5   |-1       |6        |0      |
 |6     |3     |9   |3        |18       |2      |
 |5     |2     |7   |3        |10       |2      |
+|0     |0     |0   |0        |0        |java.lang.ArithmeticException: by zero|
+|1     |0     |1   |1        |0        |java.lang.ArithmeticException: by zero|
 ```
 
 
